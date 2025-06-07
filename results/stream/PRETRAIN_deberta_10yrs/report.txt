@@ -1,0 +1,19 @@
+Classification Report:
+                           precision    recall  f1-score   support
+
+       Business & Economy   0.765206  0.663575  0.710776     51643
+Culture, Arts & Lifestyle   0.858529  0.829717  0.843877     86920
+       Health & Wellbeing   0.657534  0.394404  0.493060     19229
+       International News   0.768562  0.874324  0.818039     83206
+      Lifestyle & Leisure   0.763557  0.582581  0.660903     20931
+                    Other   0.955995  0.847367  0.898409      8563
+    Politics & Government   0.796493  0.821860  0.808978     78809
+       Sports & Athletics   0.906532  0.930424  0.918323     28760
+Tech, Science & Education   0.576529  0.748506  0.651357     29122
+
+                 accuracy                       0.784655    407183
+                macro avg   0.783215  0.743640  0.755969    407183
+             weighted avg   0.787199  0.784655  0.781624    407183
+
+
+Total runtime (seconds): 2906.40

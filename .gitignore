@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Models
+models/
+checkpoints/
+
+# Data
+data/*.csv
+data/*.h5
+data/*.json
+
+# Fonts
+fonts/*.ttf
+
+# Misc
+.env
+.DS_Store
