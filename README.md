@@ -1,5 +1,5 @@
 # LLM-OFA
-Code and data for On-the-Fly Adaptation (OFA) of Large Language Models (LLMs)
+This repository contains the code and data for our CIKM 2025 paper: LLM-OFA: On-the-Fly Adaptation of Large Language Models to Address Temporal Drift Across Two Decades of News
 
 ## 📁 Project Structure
 
@@ -26,8 +26,8 @@ Code and data for On-the-Fly Adaptation (OFA) of Large Language Models (LLMs)
 
 ```bash
 # Clone the repo
-git clone https://anonymous.4open.science/r/LLM-OFA-38BB
-cd LLM-OFA-38BB
+git clone https://github.com/pouyaghahramanian/LLM-OFA
+cd LLM-OFA
 
 # Create and activate a virtual environment (optional)
 python -m venv venv
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Download the dataset from this private link (anonymous):
+Download the dataset from this private link:
 [Download articles.h5 from Figshare](https://figshare.com/s/744c6b067b2818009688?file=55195175)
 
 Place it in the `data/` folder.
@@ -118,7 +118,21 @@ Use one of the following with `--model`:
 ## ✍️ Notes
 
 - 1M-News data must be downloaded and stored in `data/articles.h5`
-- `map_section.py` must be runned before running experiments to generate `data/articles_mapped.h5` data.
+- `map_section.py` must be run before running experiments to generate `data/articles_mapped.h5` data.
+
+## 📚 Citation
+
+If you use this repository, please cite our paper:
+
+```bibtex
+@inproceedings{ghahramanian2025ofa,
+  author    = {Pouya Ghahramanian and Sepehr Bakhshi and Fazli Can},
+  title     = {LLM-OFA: On-the-Fly Adaptation of Large Language Models to Address Temporal Drift Across Two Decades of News},
+  booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management (CIKM '25)},
+  year      = {2025},
+  publisher = {ACM},
+  doi       = {10.1145/3746252.3760846}
+}
 
 ## 📄 License
 
