@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/llm_ofa_logo_blue.png" alt="LLM-OFA Logo" width="1000"/>
+</p>
+
 # LLM-OFA
 This repository contains the code and data for our CIKM 2025 paper: LLM-OFA: On-the-Fly Adaptation of Large Language Models to Address Temporal Drift Across Two Decades of News
 
