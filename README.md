@@ -48,6 +48,8 @@ Download the dataset from this private link:
 
 Place it in the `data/` folder.
 
+Alternatively, you can access the dataset from [this link](https://www.kaggle.com/datasets/pooyagh/one-million-news) on Kaggle.
+
 ## 🚀 Usage
 
 ### Map Sections
